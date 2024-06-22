@@ -720,14 +720,17 @@
     flex-direction: column;
     gap: 30px;
     width: 100%;
-    padding: 2rem 5rem;
+    padding: 0rem 2rem;
+    border: 1px solid black;
 }
 
 .formfield-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100%;border: 
+    1px solid black;
+    
 }
 
 .formfield {
@@ -750,7 +753,7 @@
 
 #submit-btn {
     border: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin: 1rem 0;
 }
 
@@ -760,18 +763,18 @@
 
 .submit-icon {
     padding: 0 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width:660px){
     .contactus-heading {
-        font-size: 4rem;
+        font-size: 2.2rem;
         justify-content: center;
         text-transform:uppercase;
     }
     .contactus-sub-heading {
         justify-content: center;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .skill-fade-text{
         display: none;
