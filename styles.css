@@ -721,15 +721,15 @@
     gap: 30px;
     width: 100%;
     padding: 0rem 2rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .formfield-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;border: 
-    1px solid black;
+    width: 100%;
+    /* border: 1px solid black; */
     
 }
 
@@ -819,4 +819,7 @@
         display: none;
         /* or any other desired display property */
     }
+}
+.foot{
+    background-color: #e7e7e7;
 }
