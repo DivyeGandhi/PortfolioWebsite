@@ -675,10 +675,12 @@
 
 @media screen and (max-width: 1018px) {
     .skill-container-left {
-        width: 100%;
-        border: 1px dashed black;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        /* border: 1px dashed black; */
         border-radius: 25px;
-        padding: 50px;
+        /* padding: 15px; */
         margin: -50px;
     }
 }
