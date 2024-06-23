@@ -8,7 +8,9 @@
     /* overflow-x: hidden; */
     /* background-color: #7c8acb  !important; */
 }
-
+body{
+    overflow: hidden;
+}
 :root {
     --bgOrange: #a917e8;
     overflow-x: hidden;
